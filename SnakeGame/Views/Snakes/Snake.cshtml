@@ -18,7 +18,7 @@
             const y = 50 + j * 75;
             points.push({ x, y });
             ctx.beginPath();
-            ctx.arc(x, y, 4, 0, 2 * Math.PI);
+            ctx.arc(x, y, 8, 0, 2 * Math.PI);
             ctx.fillStyle = "black";
             ctx.fill();
         }
@@ -120,7 +120,7 @@
             ctx.strokeStyle = "green";
             player++
         }
-        ctx.lineWidth = 2;
+        ctx.lineWidth = 4;
         ctx.stroke();
     }
 </script>
