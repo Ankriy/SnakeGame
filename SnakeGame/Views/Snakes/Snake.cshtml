@@ -1,6 +1,6 @@
 ﻿<div class="text-center collapse-horizontal">
     <div class="btn-group-vertical" style="align-items:center">
-        <canvas id="canvas" width="500" height="500"></canvas>
+        <canvas id="canvas" width="400" height="400"></canvas>
         <input id="reset" type="button" style="height: 50px; width: 100px; vertical-align: top; margin: 20px" value="Сброс" />
     </div>
 </div>
@@ -14,8 +14,8 @@
     let firstPoint = null;
     const points = [];
     const checkedpoints = [];
-    for (let i = 0; i < 6; i++) {
-        for (let j = 0; j < 6; j++) {
+    for (let i = 0; i < 5; i++) {
+        for (let j = 0; j < 5; j++) {
             const x = 50 + i * 75;
             const y = 50 + j * 75;
             points.push({ x, y });
